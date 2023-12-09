@@ -1,0 +1,23 @@
+.genreComponent
+{
+   text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    font-family: cursive;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.imgGenre
+{
+    height: 80px;
+    width: 120px;
+    border-radius: 7%;
+
+}
+h4{
+    margin-top: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: large;
+}

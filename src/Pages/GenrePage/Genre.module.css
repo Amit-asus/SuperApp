@@ -1,0 +1,96 @@
+.halfPageContainer {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+}
+
+.halfPage {
+  flex: 1;
+  height: 100%;
+}
+
+.leftHalf {
+  background-color: black; /* Adjust colors as needed */
+}
+
+.rightHalf {
+  background-color: black; /* Adjust colors as needed */
+}
+
+halfPage h3 {
+  font-family: "Single Day", cursive;
+  font-size: 40px;
+  color: #72db73;
+  font-weight: 400;
+  line-height: 94px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 239px;
+  height: 94px;
+  top: 110px;
+  left: 1179px;
+  margin-left: 100px;
+}
+h2 {
+  text-align: left;
+  margin-left: 100px;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+/* styles.css */
+.dangerSign {
+  display: flex;
+  align-items: center;
+  color: red; /* Adjust color as needed */
+  font-weight: bold;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.dangerSignImg {
+  width: 3%; /* Adjust the percentage or specify a specific value */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px;
+}
+/* GenreBlock.css */
+.genreBlocksContainer {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap to the next line if they exceed container width */
+}
+
+.genreComponent {
+  /* Your existing styles for .genre-component */
+  /* Ensure the width of each GenreBlock is set appropriately */
+  margin: 5px; /* Add margin between GenreBlocks */
+}
+.btn {
+  width: 218px;
+  height: 45px;
+  margin-left: 400px;
+  margin-top: 70px;
+ 
+  border-radius: 28px;
+  background-color: #72db73;
+  margin-top: 30px;
+  font-family: cursive;
+  margin-right: 20px;
+}
+
+/* Add or update styles for the category tags */
+.categoryTag {
+  color: white;
+  background: red;
+  padding: 2px 6px;
+  margin-right: 5px; /* Adjust as needed */
+  border-radius: 3px;
+  margin-left: 20px;
+  border: gray solid 2px;
+  font-family: cursive;
+}

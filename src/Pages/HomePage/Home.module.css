@@ -1,0 +1,137 @@
+
+.mainContainer {
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .leftHalf {
+    position: relative;
+    width: 50%;
+  }
+  
+  .pageContainer {
+    position: relative;
+    height: 100%;
+  }
+  
+  .leftImage {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  .imageText {
+    position: absolute;
+    bottom: 20px; /* Adjust this value to position the text from the bottom */
+    left: 20px; /* Adjust this value to position the text from the left */
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 60px;
+    font-weight: 1000;
+  }
+  
+  .rightHalf {
+    width: 50%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  .superHeading {
+    font-family: "Single Day", cursive;
+    font-size: 40px;
+    color: #72db73;
+    font-weight: 400;
+    line-height: 94px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 239px;
+    height: 94px;
+   
+    margin-left: 400px;
+  }
+  .create {
+    font-family: DM Sans;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 292px;
+    height: 27px;
+    top: 213px;
+    left: 1160px;
+    margin-top: 0px;
+    margin-left: 400px;
+  }
+  
+  .inputBox {
+    width: 318px;
+    height: 34.87px;
+    top: 312px;
+    left: 1047px;
+    border-radius: 3.82px;
+    background: #292929;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: #72DB73 solid 1px;
+    font-family: cursive;
+    padding: 2px;
+  }
+ 
+  .chkBox
+  {
+      color: white;
+  }
+  .footer p
+  {
+      font-family: Roboto;
+      font-size: 13px;
+      font-weight: 300px;
+      line-height: 26px;
+      letter-spacing: 0.02em;
+      text-align: center;
+      margin-right: 80px;
+      
+  }
+  
+  form .error {
+    color: red;
+    font-size: 14px;
+    width: 90%;
+    max-width: 400px;
+    margin: -10px auto 8px;
+    text-align: left;
+    margin-top: 2px;
+    margin-left: 200px;
+  }
+  
+  .btnContainer
+  {
+    margin-right: 400px;
+    align-items: center;
+  }
+  .btn
+  {
+      width: 218px;
+  height: 45px;
+
+  border-radius: 28px ;
+  background-color: #72DB73;
+  margin-top: 30px;
+  font-family: cursive;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 400px;
+  
+  
+  }
+
+  .greenSpan
+  {
+    color:green;
+  }
