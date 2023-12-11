@@ -76,7 +76,7 @@ export default function Home() {
         <div className={styles.pageContainer}>
           <img
             className={styles.leftImage}
-            src={styles.BackgroundImage}
+            src={BackgroundImage}
             alt="1stpageimg"
           />
         </div>
