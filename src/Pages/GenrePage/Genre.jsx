@@ -70,31 +70,31 @@ function GenrePage2() {
             onGenreClick={handleGenreClick}
           />
            <GenreBlock
-            genre="drama"
+            genre="Drama"
             genreImage="/src/assets/drama.png"
             color="pink"
             onGenreClick={handleGenreClick}
           />
           <GenreBlock
-            genre="fiction"
+            genre="Fiction"
             genreImage="/src/assets/fiction.png"
             color="green"
             onGenreClick={handleGenreClick}
           />
           <GenreBlock
-            genre="horror"
+            genre="Horror"
             genreImage="/src/assets/horror.png"
             color="blue"
             onGenreClick={handleGenreClick}
           />
           <GenreBlock
-            genre="romance"
+            genre="Romance"
             genreImage="/src/assets/romance.png"
             color="red"
             onGenreClick={handleGenreClick}
           />
           <GenreBlock
-            genre="thriller"
+            genre="Thriller"
             genreImage="/src/assets/thriller.png"
             color="brown"
             onGenreClick={handleGenreClick}
@@ -106,13 +106,13 @@ function GenrePage2() {
             onGenreClick={handleGenreClick}
           />
           <GenreBlock
-            genre="fantasy"
+            genre="Fantasy"
             genreImage="/src/assets/fantasy.png"
             color="orange"
             onGenreClick={handleGenreClick}
           />
           <GenreBlock
-            genre="drama"
+            genre="Drama"
             genreImage="/src/assets/drama.png"
             color="green"
             onGenreClick={handleGenreClick}

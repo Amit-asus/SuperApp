@@ -41,7 +41,6 @@ export default function Browse() {
           bottom: "3vh",
           right: "4vw",
           background: "green",
-          border: "none",
           color: "white",
           padding: "6px",
           borderRadius: "12px",

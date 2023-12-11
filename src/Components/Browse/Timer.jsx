@@ -63,7 +63,6 @@ const Timer = () => {
         marginTop: "60px",
         display: "flex",
         boxSizing: "border-box",
-        padding: "12px",
         alignItems: "center",
         justifyContent: "space-evenly",
         border: "4px solid greenyellow" ,

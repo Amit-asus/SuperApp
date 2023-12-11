@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";https://github.com/Amit-asus/SuperApp
+import { useEffect, useState } from "react";
 import styles from "./List.module.css";
 const List = ({ genre }) => {
   const [movies, setMovies] = useState([]);

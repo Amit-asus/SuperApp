@@ -3,43 +3,43 @@ import { useEffect, useState } from "react";
 import React from "react";
 
 export default function Weather() {
-    const [date, setDate] = useState("");
-    const [time, setTime] = useState("");
-    const [weather, setWeather] = useState(false);
-    // console.log(weather)
-    useEffect(() => {
-      const fetchWeather = async () => {
-        await fetch(
-          "http://api.weatherapi.com/v1/current.json?key=987de39fe8924052ada80850232502&q=London&aqi=no" ,
-        )
-          .then(async (data) => await data.json())
-          .then((data) => setWeather(data));
-      };
-      fetchWeather();
-    }, []);
-    useEffect(() => {
-      const date = new Date();
-      var hours = date.getHours();
-      var minutes = date.getMinutes();
-      var ampm = hours >= 12 ? "pm" : "am";
-      hours = hours % 12;
-      hours = hours ? hours : 12; // the hour '0' should be '12'
-      minutes = minutes < 10 ? "0" + minutes : minutes;
-      var strTime = hours + ":" + minutes + " " + ampm;
-      setTime(strTime);
-    });
-    useEffect(() => {
-      const today = new Date();
-      const yyyy = today.getFullYear();
-      let mm = today.getMonth() + 1; // Months start at 0!
-      let dd = today.getDate();
-  
-      if (dd < 10) dd = "0" + dd;
-      if (mm < 10) mm = "0" + mm;
-  
-      const formattedToday = dd + "-" + mm + "-" + yyyy;
-      setDate(formattedToday);
-    });
+  const [date, setDate] = useState("");
+  const [time, setTime] = useState("");
+  const [weather, setWeather] = useState(false);
+  // console.log(weather)
+  useEffect(() => {
+    const fetchWeather = async () => {
+      await fetch(
+        "http://api.weatherapi.com/v1/current.json?key=987de39fe8924052ada80850232502&q=London&aqi=no"
+      )
+        .then(async (data) => await data.json())
+        .then((data) => setWeather(data));
+    };
+    fetchWeather();
+  }, []);
+  useEffect(() => {
+    const date = new Date();
+    var hours = date.getHours();
+    var minutes = date.getMinutes();
+    var amPm = hours >= 12 ? "pm" : "am";
+    hours = hours % 12;
+    hours = hours ? hours : 12; // the hour '0' should be '12'
+    minutes = minutes < 10 ? "0" + minutes : minutes;
+    var strTime = hours + ":" + minutes + " " + amPm;
+    setTime(strTime);
+  });
+  useEffect(() => {
+    const today = new Date();
+    const yyyy = today.getFullYear();
+    let mm = today.getMonth() + 1; // Months start at 0!
+    let dd = today.getDate();
+
+    if (dd < 10) dd = "0" + dd;
+    if (mm < 10) mm = "0" + mm;
+
+    const formattedToday = dd + "-" + mm + "-" + yyyy;
+    setDate(formattedToday);
+  });
   return (
     <div
       style={{
@@ -47,11 +47,9 @@ export default function Weather() {
         minHeight: "20vh",
         background: "#101744",
         borderRadius: "12px",
-        marginTop: "5px",
-        border:"2px solid black",
-        fontFamily : "cursive" ,
-        marginTop:"20px",
-        border: "4px solid greenyellow" ,
+        fontFamily: "cursive",
+        marginTop: "20px",
+        border: "4px solid greenyellow",
       }}
     >
       <div
