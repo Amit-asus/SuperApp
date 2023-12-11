@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-
+import BackgroundImage from "../../assets/page1_bg.png";
 import styles from "./Home.module.css"; // Updated import for CSS Modules
 
 export default function Home() {
@@ -76,7 +76,7 @@ export default function Home() {
         <div className={styles.pageContainer}>
           <img
             className={styles.leftImage}
-            src="/src/assets/1stpage.png"
+            src={styles.BackgroundImage}
             alt="1stpageimg"
           />
         </div>
