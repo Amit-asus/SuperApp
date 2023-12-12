@@ -3,6 +3,17 @@ import styles from "./Genre.module.css"; // Updated import for CSS Modules
 import GenreBlock from "../../Components/GenreBlock/GenreBlock";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+//image
+import action from "../../assets/action.png";
+import drama from "../../assets/drama.png";
+import fantasy from "../../assets/fantasy.png";
+import fiction from "../../assets/fiction.png";
+import horror from "../../assets/horror.png";
+import music from "../../assets/music.png";
+import romance from "../../assets/romance.png";
+import thriller from "../../assets/thriller.png";
+import western from "../../assets/western.png";
+import  danger from "../../assets/danger.png";
 
 function GenrePage2() {
   const [categories, setCategories] = useState([]);
@@ -42,7 +53,7 @@ function GenrePage2() {
         {lengthError ? (
           <div className={styles.dangerSign}>
             <img
-              src="/src/assets/danger.png"
+              src={danger}
               alt="dangervector"
               className={styles.dangerSignImg}
             />
@@ -65,55 +76,55 @@ function GenrePage2() {
         <div className={styles.genreBlocksContainer}>
           <GenreBlock
             genre="Action"
-            genreImage="/src/assets/action.png"
+            genreImage={action}
             color="red"
             onGenreClick={handleGenreClick}
           />
            <GenreBlock
             genre="Drama"
-            genreImage="/src/assets/drama.png"
+            genreImage={drama}
             color="pink"
             onGenreClick={handleGenreClick}
           />
           <GenreBlock
             genre="Fiction"
-            genreImage="/src/assets/fiction.png"
+            genreImage={fiction}
             color="green"
             onGenreClick={handleGenreClick}
           />
           <GenreBlock
             genre="Horror"
-            genreImage="/src/assets/horror.png"
+            genreImage={horror}
             color="blue"
             onGenreClick={handleGenreClick}
           />
           <GenreBlock
             genre="Romance"
-            genreImage="/src/assets/romance.png"
+            genreImage={romance}
             color="red"
             onGenreClick={handleGenreClick}
           />
           <GenreBlock
             genre="Thriller"
-            genreImage="/src/assets/thriller.png"
+            genreImage={thriller}
             color="brown"
             onGenreClick={handleGenreClick}
           />
           <GenreBlock
             genre="Western"
-            genreImage="/src/assets/Western.png"
+            genreImage={western}
             color="red"
             onGenreClick={handleGenreClick}
           />
           <GenreBlock
             genre="Fantasy"
-            genreImage="/src/assets/fantasy.png"
+            genreImage={fantasy}
             color="orange"
             onGenreClick={handleGenreClick}
           />
           <GenreBlock
             genre="Drama"
-            genreImage="/src/assets/drama.png"
+            genreImage={drama}
             color="green"
             onGenreClick={handleGenreClick}
           />
