@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Info.module.css";
+import Profile from "../../assets/profileBig.png";
 
 
 export default function Info() {
@@ -31,7 +32,7 @@ export default function Info() {
   return (
     <div>
       <div className={styles.outsideDiv}>
-        <img src="/src/assets/boy.png" alt="boypng" className={styles.boyPng} />
+        <img src={Profile} alt="boypng" className={styles.boyPng} />
         <div className={styles.info}>
           <p>{userInfo.name}</p>
           <p>{userInfo.email}</p>
